@@ -10,10 +10,10 @@ u=small_letters.count('u')
 e=small_letters.count('e')
 true=t+r+u+e
 l=small_letters.count('l')
-o=small_lrtters.count('o')
-v=small_lrtters.count('v')
-e=small_lrtters.count('e')
-o=small_lrtters.count('o')
+o=small_letters.count('o')
+v=small_letters.count('v')
+e=small_letters.count('e')
+o=small_letters.count('o')
 love=l+o+v+e
 lovescore=int(str(true)+str(love))
 
