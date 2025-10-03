@@ -52,3 +52,18 @@ print(k)
 k.add(12)
 k.add(12)
 print(k)
+
+dict={
+    "model":"1st model",
+    "year":2021
+}
+print(type(dict))
+print(dict)
+
+dict={
+    "model":"1st model",
+    "year":2021,
+    "age":25
+}
+print(type(dict))
+print(dict)
