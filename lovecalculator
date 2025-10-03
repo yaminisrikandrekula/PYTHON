@@ -1,8 +1,8 @@
-name1=input("Enter your name in a capital:")
-name2=input("Enter your name:")
-Bothnames=name1+name2
-print(Bothnames)
-small_letters=Bothnames.lower()
+name1=input("Enter your name:")
+name2=input("Enter your partner name:")
+bothnames=name1+name2
+print(bothnames)
+small_letters=bothnames.lower()
 print(small_letters)
 t=small_letters.count('t')
 r=small_letters.count('r')
