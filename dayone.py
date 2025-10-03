@@ -68,12 +68,6 @@ dict={
 print(type(dict))
 print(dict)
 
-dict={
-    "model":"1st model",
-    "year":2021,
-    "age":25
-}
-
 def mom(a,b):
     print(a+b)
 a=10
@@ -86,3 +80,16 @@ mom(5,6)
 print(dict['model'])
 dict['city']='Hyderabad'
 print(dict)
+
+def mom(a,b):
+    print(a+b)
+a=10
+b=20
+c=mom(a,b)
+print(c)
+d=mom(5,6)
+print(d)
+e=mom(a,b)
+print(e)
+f=mom(5,6)
+print(f)
