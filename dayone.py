@@ -38,3 +38,17 @@ Bothnames=name1+name2
 print(Bothnames)
 small_letters=Bothnames.lower()
 print(small_letters)
+
+a=10
+print(type(a))
+s=str(a)
+print(type(s))
+k=float(s)
+print(type(k))
+
+list=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+k=set(list)
+print(k)
+k.add(12)
+k.add(12)
+print(k)
