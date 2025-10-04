@@ -16,3 +16,21 @@ a=10
 b=20
 c=mom(a,b)
 print(c)
+
+if True:
+    print("Valid")
+else:
+    print("Invalid")
+    
+if False:
+    print("Valid")
+else:
+    print("Invalid")
+    
+try:
+    a=int(input("Enter first number:"))
+    b=int(input("Enter second number:"))
+    result =a+b
+    print("sum:", result)
+except valueError:
+    print("Invalid input!please enter number only.")
