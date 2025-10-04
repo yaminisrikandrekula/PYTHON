@@ -32,14 +32,14 @@ try:
     b=int(input("Enter second number:"))
     result =a+b
     print("sum:", result)
-except valueError:
+except ValueError:
     print("Invalid input!please enter number only.")
 
 try:
     num=int(input("Enter a number:"))
     result = 10/num
     print("Result:", result)
-except valueError:
+except ValueError:
     print("Invalid input!please enter number.")
 except ZeroDivisionError:
     print("Cannot divide by zero!")
