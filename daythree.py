@@ -52,3 +52,10 @@ e=mom(a,b)
 print(e)
 f=mom(5,6)
 print(f)
+
+def mom (a,b):
+    return(a+b)
+a=10
+b=20
+c=mom(a,b)
+print(c)
