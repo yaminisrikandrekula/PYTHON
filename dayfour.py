@@ -47,3 +47,23 @@ except Exception as e:
     print("An error occupied:",e)
 finally:
     print("Execution finished.")
+
+x=2+3j
+print(x.real)
+print(x.imag)
+print(type(x))
+    
+def summ(a,b):
+     return a+b
+def diff(a,b):
+    return a-b
+def prod(a,b):
+    return a*b
+a,b=10,2
+s=summ(a,b)
+print(s)
+d=diff(a,b)
+print(d)
+p=prod(a,b)
+print(p)
+    
